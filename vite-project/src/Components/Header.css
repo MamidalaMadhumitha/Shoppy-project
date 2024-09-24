@@ -1,0 +1,152 @@
+*{
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;  
+    align-items: center;  
+}
+.h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-right: 320px;  
+    margin-left: 20px;  
+    color: white;
+    text-shadow: 1px 0.2px white;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+   
+}
+.Home,.ProductDetail,.Checkout,.Cart {
+   color: aliceblue; 
+   font-size: 20px;
+   margin: 20px 40px ;
+  
+   
+}
+ .faCartShopping{
+    color: aliceblue;
+    size:15px;
+ }
+ .search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 30px 0 30px 0;
+ }
+ .input-field{
+    background-color: rgb(192, 226, 235);
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+ }
+ .button{
+   margin: 10px;
+   padding: 13px;
+   background-color: rgb(192, 226, 235);
+   border: 2px solid white;
+   border-radius: 5px;
+ }
+
+ .Items{
+    height: 100vh;
+ }
+ .backtohome  span ,.faArrowLeft{ 
+    color: white;
+    margin:10px;
+ }
+ .productItem {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    /* border: 2px solid white; */
+    width: 60rem;
+    padding-left: 30px;
+    
+   
+}
+
+.productData {
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+
+}
+
+.productData span {
+    font-size: smaller;
+    font-weight: 400;
+    margin: 5px;
+}
+
+.container {
+    margin: 2rem
+}
+
+.productImage div {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    font-size: larger;
+    font-weight: 600;
+    color: #e9e1e1;
+}
+
+.title,.Brand{
+    color: rgb(194, 230, 230);
+    margin:5px;
+}
+.price{
+    color: #e9e1e1;
+    margin: 10px;
+}
+.faTags{
+  /* margin:5px; */
+  padding: 5px;
+}
+.faPlus,
+.faMinus {
+    background-color: #f3eded;
+}
+.Availability{
+    color: #f3eded;
+}
+.faStarHalfStroke,.faTruck {
+    color: white;
+    padding: 10px;
+}
+.description{
+    margin:5px;
+    color: #d8d0d0;
+    font-size: 18px;
+    margin: 5px;
+}
+.info{
+    margin:10px;
+    color: white;
+    font-size: 40px; 
+}
+.Error-msg{
+    margin: 90px;
+    text-align: center;
+    color: rgb(182, 6, 6);
+    
+}
+.error-status{
+    margin: 20px;
+}
